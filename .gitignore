@@ -1,1 +1,69 @@
+# =========================
+# Python virtual environment
+# =========================
 .venv/
+venv/
+env/
+
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+
+# =========================
+# Project data
+# Do NOT upload datasets to GitHub
+# =========================
+data/raw/flights/*
+data/raw/weather/*
+data/interim/*
+data/processed/*
+
+# Keep empty folder structure in Git
+!data/raw/flights/.gitkeep
+!data/raw/weather/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# =========================
+# Trained models
+# =========================
+models/*
+
+# Keep models folder
+!models/.gitkeep
+
+# =========================
+# Power BI files
+# =========================
+*.pbix
+
+# =========================
+# Environment variables / secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDE files
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.log

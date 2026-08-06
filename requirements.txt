@@ -1,0 +1,8 @@
+pandas
+numpy
+matplotlib
+duckdb
+pyarrow
+jupyter
+ipykernel
+scikit-learn
