@@ -42,6 +42,7 @@ models/*
 
 # Keep models folder
 !models/.gitkeep
+!models/lightgbm_v4.joblib
 
 # =========================
 # Power BI files
