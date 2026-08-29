@@ -1,0 +1,4 @@
+Model,ROC-AUC,PR-AUC
+Logistic Regression v3,0.672868,0.342343
+LightGBM v4,0.696822,0.380588
+CatBoost,0.691029,0.372912

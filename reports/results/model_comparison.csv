@@ -1,0 +1,3 @@
+model,validation_roc_auc,validation_pr_auc,validation_best_f1,validation_threshold
+Logistic Regression v3,0.672868,0.342343,0.40663,0.205
+LightGBM v4,0.696599,0.380604,0.424485,0.185
